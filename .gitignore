@@ -1,0 +1,14 @@
+
+.vs/fnr/FileContentIndex/ee549d31-534e-40d5-ae41-bdf6a2443e34.vsidx
+*.vsidx
+*.lock
+.vs/fnr/v17/.suo
+*.exe
+*.pdb
+obj/Debug/.NETFramework,Version=v4.5.AssemblyAttributes.cs
+obj/Debug/DesignTimeResolveAssemblyReferences.cache
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Debug/FindAndReplace.App.MainForm.resources
+obj/Debug/FindAndReplace.App.Properties.Resources.resources
+*.cache
+obj/Debug/fnr.csproj.FileListAbsolute.txt
