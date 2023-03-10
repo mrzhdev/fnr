@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: F:\MIkron_old\fnr.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3864A263-18AF-4D3F-8340-F6DDCDC7DA81}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>fnr</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.5.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="href\Utils\EncodingTools.cs" />
+    <Compile Include="MultiLanguage\IMLangConvertCharset.cs" />
+    <Compile Include="MultiLanguage\CMLangConvertCharset.cs" />
+    <Compile Include="MultiLanguage\CMLangConvertCharsetClass.cs" />
+    <Compile Include="MultiLanguage\IMLangString.cs" />
+    <Compile Include="MultiLanguage\CMLangString.cs" />
+    <Compile Include="MultiLanguage\IMLangStringWStr.cs" />
+    <Compile Include="MultiLanguage\IMLangStringAStr.cs" />
+    <Compile Include="MultiLanguage\CMLangStringClass.cs" />
+    <Compile Include="MultiLanguage\IMultiLanguage.cs" />
+    <Compile Include="MultiLanguage\CMultiLanguage.cs" />
+    <Compile Include="MultiLanguage\IMLangCodePages.cs" />
+    <Compile Include="MultiLanguage\IMLangFontLink.cs" />
+    <Compile Include="MultiLanguage\IMLangLineBreakConsole.cs" />
+    <Compile Include="MultiLanguage\IMultiLanguage2.cs" />
+    <Compile Include="MultiLanguage\IMLangFontLink2.cs" />
+    <Compile Include="MultiLanguage\IMultiLanguage3.cs" />
+    <Compile Include="MultiLanguage\CMultiLanguageClass.cs" />
+    <Compile Include="MultiLanguage\IEnumCodePage.cs" />
+    <Compile Include="MultiLanguage\IEnumRfc1766.cs" />
+    <Compile Include="MultiLanguage\IEnumScript.cs" />
+    <Compile Include="MultiLanguage\IMLangStringBufA.cs" />
+    <Compile Include="MultiLanguage\IMLangStringBufW.cs" />
+    <Compile Include="MultiLanguage\ISequentialStream.cs" />
+    <Compile Include="MultiLanguage\IStream.cs" />
+    <Compile Include="MultiLanguage\MLDETECTCP.cs" />
+    <Compile Include="MultiLanguage\DetectEncodingInfo.cs" />
+    <Compile Include="MultiLanguage\tagMIMECONTF.cs" />
+    <Compile Include="MultiLanguage\tagMIMECPINFO.cs" />
+    <Compile Include="MultiLanguage\tagMIMECSETINFO.cs" />
+    <Compile Include="MultiLanguage\MLCPF.cs" />
+    <Compile Include="MultiLanguage\tagMLSTR_FLAGS.cs" />
+    <Compile Include="MultiLanguage\tagRFC1766INFO.cs" />
+    <Compile Include="MultiLanguage\tagSCRIPFONTINFO.cs" />
+    <Compile Include="MultiLanguage\tagSCRIPTINFO.cs" />
+    <Compile Include="MultiLanguage\tagSTATSTG.cs" />
+    <Compile Include="MultiLanguage\tagUNICODERANGE.cs" />
+    <Compile Include="MultiLanguage\_FILETIME.cs" />
+    <Compile Include="MultiLanguage\_LARGE_INTEGER.cs" />
+    <Compile Include="MultiLanguage\_RemotableHandle.cs" />
+    <Compile Include="MultiLanguage\_ULARGE_INTEGER.cs" />
+    <Compile Include="MultiLanguage\__MIDL_IWinTypes_0009.cs" />
+    <Compile Include="FindAndReplace\CommandLineUtils.cs" />
+    <Compile Include="FindAndReplace\EncodingDetector.cs" />
+    <Compile Include="FindAndReplace\FileGetter.cs" />
+    <Compile Include="FindAndReplace\FinderEventArgs.cs" />
+    <Compile Include="FindAndReplace\FileProcessedEventHandler.cs" />
+    <Compile Include="FindAndReplace\Finder.cs" />
+    <Compile Include="FindAndReplace\ResultItem.cs" />
+    <Compile Include="FindAndReplace\KlerksSoftEncodingDetector.cs" />
+    <Compile Include="FindAndReplace\LiteMatch.cs" />
+    <Compile Include="FindAndReplace\MatchPreviewLineNumber.cs" />
+    <Compile Include="FindAndReplace\LineNumberComparer.cs" />
+    <Compile Include="FindAndReplace\ReplacerEventArgs.cs" />
+    <Compile Include="FindAndReplace\ReplaceFileProcessedEventHandler.cs" />
+    <Compile Include="FindAndReplace\Replacer.cs" />
+    <Compile Include="FindAndReplace\Status.cs" />
+    <Compile Include="FindAndReplace\Stats.cs" />
+    <Compile Include="FindAndReplace\Utils.cs" />
+    <Compile Include="FindAndReplace\Verify.cs" />
+    <Compile Include="FindAndReplace\StopWatch.cs" />
+    <Compile Include="FindAndReplace\App\CommandLineOptions.cs" />
+    <Compile Include="FindAndReplace\App\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindAndReplace\App\Program.cs" />
+    <Compile Include="FindAndReplace\App\CommandLineRunner.cs" />
+    <Compile Include="FindAndReplace\App\FormData.cs" />
+    <Compile Include="FindAndReplace\App\ValidationResult.cs" />
+    <Compile Include="FindAndReplace\App\ValidationUtils.cs" />
+    <Compile Include="FindAndReplace\App\Properties\Resources.cs" />
+    <Compile Include="FindAndReplace\App\Properties\Settings.cs" />
+    <Compile Include="CommandLine\BaseOptionAttribute.cs" />
+    <Compile Include="CommandLine\OptionAttribute.cs" />
+    <Compile Include="CommandLine\OptionArrayAttribute.cs" />
+    <Compile Include="CommandLine\HelpOptionAttribute.cs" />
+    <Compile Include="CommandLine\OptionListAttribute.cs" />
+    <Compile Include="CommandLine\ParserStateAttribute.cs" />
+    <Compile Include="CommandLine\ValueListAttribute.cs" />
+    <Compile Include="CommandLine\ValueOptionAttribute.cs" />
+    <Compile Include="CommandLine\MultilineTextAttribute.cs" />
+    <Compile Include="CommandLine\AssemblyLicenseAttribute.cs" />
+    <Compile Include="CommandLine\AssemblyUsageAttribute.cs" />
+    <Compile Include="CommandLine\HelpVerbOptionAttribute.cs" />
+    <Compile Include="CommandLine\VerbOptionAttribute.cs" />
+    <Compile Include="CommandLine\BadOptionInfo.cs" />
+    <Compile Include="CommandLine\Parser.cs" />
+    <Compile Include="CommandLine\ParserException.cs" />
+    <Compile Include="CommandLine\ParserSettings.cs" />
+    <Compile Include="CommandLine\IParserState.cs" />
+    <Compile Include="CommandLine\ParserState.cs" />
+    <Compile Include="CommandLine\ParsingError.cs" />
+    <Compile Include="CommandLine\Extensions\CharExtensions.cs" />
+    <Compile Include="CommandLine\Extensions\StringExtensions.cs" />
+    <Compile Include="CommandLine\Infrastructure\PopsicleSetter.cs" />
+    <Compile Include="CommandLine\Infrastructure\SR.cs" />
+    <Compile Include="CommandLine\Infrastructure\Assumes.cs" />
+    <Compile Include="CommandLine\Infrastructure\ReflectionCache.cs" />
+    <Compile Include="CommandLine\Infrastructure\ReflectionHelper.cs" />
+    <Compile Include="CommandLine\Infrastructure\Pair`2.cs" />
+    <Compile Include="CommandLine\Parsing\PropertyWriter.cs" />
+    <Compile Include="CommandLine\Parsing\TargetCapabilitiesExtensions.cs" />
+    <Compile Include="CommandLine\Parsing\ValueMapper.cs" />
+    <Compile Include="CommandLine\Parsing\ArgumentParser.cs" />
+    <Compile Include="CommandLine\Parsing\LongOptionParser.cs" />
+    <Compile Include="CommandLine\Parsing\OptionGroupParser.cs" />
+    <Compile Include="CommandLine\Parsing\OptionInfo.cs" />
+    <Compile Include="CommandLine\Parsing\OptionMap.cs" />
+    <Compile Include="CommandLine\Parsing\IArgumentEnumerator.cs" />
+    <Compile Include="CommandLine\Parsing\OneCharStringEnumerator.cs" />
+    <Compile Include="CommandLine\Parsing\StringArrayEnumerator.cs" />
+    <Compile Include="CommandLine\Parsing\PresentParserState.cs" />
+    <Compile Include="CommandLine\Text\HelpText.cs" />
+    <Compile Include="CommandLine\Text\BaseSentenceBuilder.cs" />
+    <Compile Include="CommandLine\Text\EnglishSentenceBuilder.cs" />
+    <Compile Include="CommandLine\Text\CopyrightInfo.cs" />
+    <Compile Include="CommandLine\Text\HeadingInfo.cs" />
+    <Compile Include="CommandLine\Text\FormatOptionHelpTextEventArgs.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FindAndReplace\App\MainForm.resx" />
+    <EmbeddedResource Include="FindAndReplace\App\Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
